@@ -7,4 +7,5 @@ The WiFIR was made from a need to control a heatpump / ac to allow pre-heating o
 ![top render](renders/top.png)
 ![bottom render](renders/bot.png)
 
-[Interactive BOM](https://WiFIR.github.io/pcb/docs/ibom.html)
+[Interactive BOM](https://WiFIR.github.io/pcb/ibom.html)
+
