@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
+Title "WiFIR"
 Date ""
-Rev ""
+Rev "0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "WiFi connected IR blaster / reciever"
 $EndDescr
 $Comp
 L Battery_Management:LC709203FQH-01TWG U3

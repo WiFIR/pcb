@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
+Title "WiFIR: MCU and I/O"
 Date ""
 Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "WiFi connected IR blaster / reciever"
 $EndDescr
 Text GLabel 5150 3525 2    50   Output ~ 0
 device_wake
