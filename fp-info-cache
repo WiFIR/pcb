@@ -1,4 +1,4 @@
-18805640688256944
+18805640689314867
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -61958,8 +61958,8 @@ OnSemi VCT DFN_QFN
 28
 Package_DFN_QFN
 OnSemi_WDFN-6-2EP_2.6x4.0mm_P0.65mm
-
-
+WDFN, 6 pin, 4.0x2.6, 0.65P; Two exposed pads, (https://www.onsemi.com/pub/Collateral/511BZ.PDF)
+DFN 0.65P dual flag
 0
 8
 8
