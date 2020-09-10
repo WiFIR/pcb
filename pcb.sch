@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "WiFi connected IR blaster / reciever"
 $EndDescr
-$Comp
-L Battery_Management:LC709203FQH-01TWG U3
-U 1 1 5F5106E8
-P 4175 6850
-F 0 "U3" H 4175 7531 50  0000 C CNN
-F 1 "LC709203FQH-01TWG" H 4175 7440 50  0000 C CNN
-F 2 "Package_DFN_QFN:WDFN-8-1EP_4x3mm_P0.65mm_EP2.4x1.8mm" H 4175 6300 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/LC709203F-D.PDF" H 4125 6750 50  0001 C CNN
-	1    4175 6850
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5075 3275 725  1050
 U 5F797DCE
