@@ -15,17 +15,17 @@ Comment4 "WiFi connected IR blaster / reciever"
 $EndDescr
 Text GLabel 5150 3525 2    50   Output ~ 0
 device_wake
-Text GLabel 5150 4025 2    50   Output ~ 0
+Text GLabel 5150 4125 2    50   Output ~ 0
 IR_BLAST
 Text GLabel 5150 3925 2    50   Input ~ 0
 IR_SIGNAL
-Text GLabel 5150 4325 2    50   Output ~ 0
+Text GLabel 5150 3825 2    50   Output ~ 0
 IR_RECV_VCC
-Text GLabel 5150 4225 2    50   Input ~ 0
+Text GLabel 5150 4025 2    50   Input ~ 0
 factory_rst
 Text GLabel 4350 3525 0    35   Input ~ 0
 ~RST
-Text GLabel 5150 4125 2    33   Input ~ 0
+Text GLabel 5150 4225 2    33   Input ~ 0
 ~LOW_BAT
 $Comp
 L MCU_Module:WeMos_D1_mini U?
@@ -163,7 +163,7 @@ AR Path="/5FCE8B54" Ref="Q?"  Part="1"
 AR Path="/5FCCBFB4/5FCE8B54" Ref="Q1"  Part="1" 
 F 0 "Q1" H 7630 3996 50  0000 L CNN
 F 1 "FDN339AN" H 7125 3800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7625 4050 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7625 4050 50  0001 C CNN
 F 3 "~" H 7425 3950 50  0001 C CNN
 	1    7425 3950
 	1    0    0    -1  
