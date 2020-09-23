@@ -53,6 +53,4 @@ F2 "SCL" O L 5950 3575 50
 F3 "SDA" B L 5950 3500 50 
 F4 "3V3" B L 5950 3350 50 
 $EndSheet
-Text Notes 3200 6100 0    50   ~ 0
-Alternative, cheaper fuel gauge (with no current sense)
 $EndSCHEMATC

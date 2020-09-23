@@ -25,7 +25,7 @@ Text GLabel 5150 4025 2    50   Input ~ 0
 factory_rst
 Text GLabel 4350 3525 0    35   Input ~ 0
 ~RST
-Text GLabel 5150 4225 2    33   Input ~ 0
+Text GLabel 5150 4325 2    33   Input ~ 0
 ~LOW_BAT
 $Comp
 L MCU_Module:WeMos_D1_mini U?
@@ -313,8 +313,8 @@ L Device:C_Small C?
 U 1 1 5FCE8BBD
 P 3175 3225
 AR Path="/5FCE8BBD" Ref="C?"  Part="1" 
-AR Path="/5FCCBFB4/5FCE8BBD" Ref="C1"  Part="1" 
-F 0 "C1" H 3267 3271 50  0000 L CNN
+AR Path="/5FCCBFB4/5FCE8BBD" Ref="C11"  Part="1" 
+F 0 "C11" H 3267 3271 50  0000 L CNN
 F 1 "1uF" H 3267 3180 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3175 3225 50  0001 C CNN
 F 3 "~" H 3175 3225 50  0001 C CNN
@@ -438,4 +438,86 @@ Text HLabel 5925 3275 1    50   BiDi ~ 0
 3V3
 Text HLabel 7525 3150 1    50   BiDi ~ 0
 3V3
+$Comp
+L Sensor_Temperature:LM75C U9
+U 1 1 5F6438DE
+P 7575 5625
+F 0 "U9" H 7350 6075 50  0000 C CNN
+F 1 "LM75C" H 7750 6075 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7575 5625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 7575 5625 50  0001 C CNN
+	1    7575 5625
+	1    0    0    -1  
+$EndComp
+Text HLabel 7575 5025 1    50   BiDi ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F647668
+P 7575 6225
+AR Path="/5F647668" Ref="#PWR?"  Part="1" 
+AR Path="/5FCCBFB4/5F647668" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 7575 5975 50  0001 C CNN
+F 1 "GND" H 7580 6052 50  0000 C CNN
+F 2 "" H 7575 6225 50  0001 C CNN
+F 3 "" H 7575 6225 50  0001 C CNN
+	1    7575 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7575 5025 7575 5075
+Wire Wire Line
+	7575 5075 8025 5075
+Wire Wire Line
+	8025 5075 8025 5525
+Wire Wire Line
+	8025 5725 7975 5725
+Connection ~ 7575 5075
+Wire Wire Line
+	7575 5075 7575 5125
+Wire Wire Line
+	7975 5625 8025 5625
+Connection ~ 8025 5625
+Wire Wire Line
+	8025 5625 8025 5725
+Wire Wire Line
+	7975 5525 8025 5525
+Connection ~ 8025 5525
+Wire Wire Line
+	8025 5525 8025 5625
+Text HLabel 7175 5525 0    50   BiDi ~ 0
+SDA
+Text HLabel 7175 5625 0    50   Output ~ 0
+SCL
+$Comp
+L Device:C_Small C?
+U 1 1 5F64E573
+P 8200 5625
+AR Path="/5F64E573" Ref="C?"  Part="1" 
+AR Path="/5FCCBFB4/5F64E573" Ref="C1"  Part="1" 
+F 0 "C1" H 8292 5671 50  0000 L CNN
+F 1 "1uF" H 8292 5580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8200 5625 50  0001 C CNN
+F 3 "~" H 8200 5625 50  0001 C CNN
+	1    8200 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7575 6225 7575 6175
+Wire Wire Line
+	7575 6175 8200 6175
+Wire Wire Line
+	8200 6175 8200 5725
+Connection ~ 7575 6175
+Wire Wire Line
+	7575 6175 7575 6125
+Wire Wire Line
+	8200 5525 8200 5075
+Wire Wire Line
+	8200 5075 8025 5075
+Connection ~ 8025 5075
+Text HLabel 7175 5725 0    50   UnSpc ~ 0
+Temp_O.S.
+Text HLabel 5150 4225 2    50   UnSpc ~ 0
+Temp_O.S.
 $EndSCHEMATC
