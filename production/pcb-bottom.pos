@@ -1,0 +1,8 @@
+### Module positions - created on 02/03/21 22:35:08 ###
+### Printed by Pcbnew version (5.99.0-8711-gbabda304d9)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                     PosX       PosY       Rot  Side
+J1        4.5-18V        BarrelJack_Horizontal  -161.8000  -126.0000   90.0000  bottom
+U1        WeMos_D1_mini  WEMOS_D1_mini_light    -166.9000   -81.5000  180.0000  bottom
+## End
