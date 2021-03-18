@@ -1,1 +1,4 @@
 *bak*
+pcb-backups
+*.kicad_prl
+lib/3D

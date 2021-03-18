@@ -1222,11 +1222,11 @@
         )
       )
     )
-    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "VBUS" (id 1) (at 0 3.81 0)
+      (property "Value" "VCC" (id 1) (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
@@ -1238,10 +1238,10 @@
       (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (id 5) (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "VBUS_0_1"
+      (symbol "VCC_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -1264,9 +1264,9 @@
           (stroke (width 0)) (fill (type none))
         )
       )
-      (symbol "VBUS_1_1"
+      (symbol "VCC_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VBUS" (effects (font (size 1.27 1.27))))
+          (name "VCC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2075,20 +2075,20 @@
     (pin "1" (uuid 40d6b889-dec8-4118-820e-cc2c458eaf6e))
   )
 
-  (symbol (lib_id "power:VBUS") (at 62.865 36.195 0) (unit 1)
+  (symbol (lib_id "power:VCC") (at 62.865 36.195 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 90d731b8-177f-47e5-a5ff-52f6243ff053)
-    (property "Reference" "#PWR0110" (id 0) (at 62.865 40.005 0)
+    (uuid 93354151-6a49-40a1-8659-7b7979c22e83)
+    (property "Reference" "#PWR?" (id 0) (at 62.865 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VBUS" (id 1) (at 63.246 31.8008 0))
+    (property "Value" "VCC" (id 1) (at 64.135 30.48 0))
     (property "Footprint" "" (id 2) (at 62.865 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 62.865 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0160f00-e5cb-4b70-82d0-c2fe9bd0704e))
+    (pin "1" (uuid e0c9bdd3-8211-4049-aca8-5addc346ab0a))
   )
 
   (symbol (lib_id "power:+1V8") (at 70.485 73.66 0) (unit 1)
@@ -2142,7 +2142,7 @@
   (symbol (lib_id "power:+3V3") (at 160.655 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7d59b3a0-8f47-40c3-86ee-962d0aa72dd9)
-    (property "Reference" "#PWR?" (id 0) (at 160.655 107.95 0)
+    (property "Reference" "#PWR0120" (id 0) (at 160.655 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 160.02 99.695 0))
@@ -2203,20 +2203,20 @@
     (pin "1" (uuid 3ad0cfed-9e63-449d-88b6-43ec4d55bd00))
   )
 
-  (symbol (lib_id "power:VBUS") (at 222.25 36.195 0) (unit 1)
+  (symbol (lib_id "power:VCC") (at 222.25 36.195 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 58115fe6-543f-4dc3-8e0c-854290afdcd8)
-    (property "Reference" "#PWR0101" (id 0) (at 222.25 40.005 0)
+    (uuid d700b45b-bf50-4ed3-8e15-645fe836c13b)
+    (property "Reference" "#PWR?" (id 0) (at 222.25 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VBUS" (id 1) (at 222.631 31.8008 0))
+    (property "Value" "VCC" (id 1) (at 223.52 30.48 0))
     (property "Footprint" "" (id 2) (at 222.25 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 222.25 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da65cd6d-e759-4b5f-ad25-db0b1c23e384))
+    (pin "1" (uuid c570e8e6-d72c-44b5-adec-28af0a5cc618))
   )
 
   (symbol (lib_id "power:+3V3") (at 244.475 111.76 0) (unit 1)
@@ -2318,7 +2318,7 @@
   (symbol (lib_id "power:GND") (at 163.195 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6c1def17-6701-42eb-9ba1-f5d73c983607)
-    (property "Reference" "#PWR?" (id 0) (at 163.195 138.43 0)
+    (property "Reference" "#PWR0121" (id 0) (at 163.195 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 163.322 135.8392 0))
@@ -2436,7 +2436,7 @@
   (symbol (lib_id "Device:R_Small") (at 151.765 113.03 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e5579559-ce37-4749-89a9-1062775b5c94)
-    (property "Reference" "R?" (id 0) (at 150.2664 111.8616 0)
+    (property "Reference" "R1" (id 0) (at 150.2664 111.8616 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22k" (id 1) (at 150.266 114.173 0)
@@ -2458,7 +2458,7 @@
     (property "Reference" "R3" (id 0) (at 175.6664 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "5k1" (id 1) (at 175.6664 43.053 0)
+    (property "Value" "4k7" (id 1) (at 175.666 43.053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 177.165 41.91 0)
@@ -2474,10 +2474,10 @@
   (symbol (lib_id "Device:R_Small") (at 177.165 114.935 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b48628e-b3e8-4d9c-b889-835fd1762803)
-    (property "Reference" "R?" (id 0) (at 175.6664 113.7666 0)
+    (property "Reference" "R2" (id 0) (at 175.6664 113.7666 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "5k1" (id 1) (at 175.6664 116.078 0)
+    (property "Value" "4k7" (id 1) (at 175.666 116.078 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 177.165 114.935 0)
@@ -2496,7 +2496,7 @@
     (property "Reference" "R4" (id 0) (at 181.2036 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "5k1" (id 1) (at 181.204 43.053 0)
+    (property "Value" "4k7" (id 1) (at 181.204 43.053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 179.705 41.91 0)
@@ -2512,10 +2512,10 @@
   (symbol (lib_id "Device:R_Small") (at 179.705 114.935 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5dca8f7e-f8a5-4a22-97dd-ff9e335f6469)
-    (property "Reference" "R?" (id 0) (at 181.2036 113.7666 0)
+    (property "Reference" "R10" (id 0) (at 181.2036 113.7666 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "5k1" (id 1) (at 181.2036 116.078 0)
+    (property "Value" "4k7" (id 1) (at 181.204 116.078 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 179.705 114.935 0)
@@ -2534,7 +2534,7 @@
     (property "Reference" "R5" (id 0) (at 206.7814 64.8716 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "4k7" (id 1) (at 206.7814 67.183 0)
+    (property "Value" "4k7" (id 1) (at 206.781 67.183 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 208.28 66.04 0)
@@ -2551,7 +2551,7 @@
     (in_bom yes) (on_board yes)
     (uuid f906bf8a-aa15-4246-b473-eddd0ec562c0)
     (property "Reference" "R6" (id 0) (at 212.09 57.2516 90))
-    (property "Value" "1k" (id 1) (at 212.09 59.563 90))
+    (property "Value" "470R" (id 1) (at 212.09 59.563 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 212.09 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2767,7 +2767,7 @@
     (property "Datasheet" "~" (id 3) (at 117.475 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL10A226MP8NUNE" (id 4) (at 115.57 54.61 0))
+    (property "MPN" "CL10A226MP8NUNE" (id 4) (at 116.84 55.88 0))
     (pin "1" (uuid 7bc8178b-774d-4eea-8e8c-bc32b301433f))
     (pin "2" (uuid 4e404709-a23b-4ce4-b79d-735c04fc94a3))
   )
@@ -2937,7 +2937,7 @@
   (symbol (lib_id "Interface:PCA9306DC1") (at 163.195 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5ee4da8f-4281-43fb-a568-902173be53e7)
-    (property "Reference" "U?" (id 0) (at 157.48 130.81 0))
+    (property "Reference" "U7" (id 0) (at 157.48 130.81 0))
     (property "Value" "PCA9306DC1" (id 1) (at 170.18 130.81 0))
     (property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" (id 2) (at 163.195 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2989,9 +2989,6 @@
   )
 
   (symbol_instances
-    (path "/58115fe6-543f-4dc3-8e0c-854290afdcd8"
-      (reference "#PWR0101") (unit 1) (value "VBUS") (footprint "")
-    )
     (path "/4bdefbc2-e60e-45e3-b469-c7e4ee78db2b"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
@@ -3015,9 +3012,6 @@
     )
     (path "/4f200932-00b9-4feb-a52b-f87a28a2713b"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/90d731b8-177f-47e5-a5ff-52f6243ff053"
-      (reference "#PWR0110") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/5c7c2a79-b84f-4834-8ff5-1c86de6fbb47"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
@@ -3046,11 +3040,17 @@
     (path "/ef817ac4-973a-4a0e-ad76-90a5531811f6"
       (reference "#PWR0119") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/6c1def17-6701-42eb-9ba1-f5d73c983607"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7d59b3a0-8f47-40c3-86ee-962d0aa72dd9"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0120") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/6c1def17-6701-42eb-9ba1-f5d73c983607"
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/93354151-6a49-40a1-8659-7b7979c22e83"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/d700b45b-bf50-4ed3-8e15-645fe836c13b"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/3e5bf149-c738-4d8c-98c7-60805c47a399"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -3091,17 +3091,23 @@
     (path "/ac158aa8-4b35-4f41-a46d-83330ed77047"
       (reference "Q1") (unit 1) (value "FDN339AN") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
     )
+    (path "/e5579559-ce37-4749-89a9-1062775b5c94"
+      (reference "R1") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/0b48628e-b3e8-4d9c-b889-835fd1762803"
+      (reference "R2") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
     (path "/2fb37f15-cfd9-452c-a896-0627c3d35cfa"
-      (reference "R3") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R3") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/e1d36cf1-8d79-4a6e-92bb-6fd16804dfc2"
-      (reference "R4") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R4") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/c7b6571a-1a14-4fa8-b1c9-4aece29082a2"
       (reference "R5") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/f906bf8a-aa15-4246-b473-eddd0ec562c0"
-      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R6") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/6b60f39f-1592-4911-be42-25f9f1f2d389"
       (reference "R7") (unit 1) (value "27R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -3112,14 +3118,8 @@
     (path "/02eb83ec-3869-45fa-a8f5-23ac54585367"
       (reference "R9") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/0b48628e-b3e8-4d9c-b889-835fd1762803"
-      (reference "R?") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/5dca8f7e-f8a5-4a22-97dd-ff9e335f6469"
-      (reference "R?") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/e5579559-ce37-4749-89a9-1062775b5c94"
-      (reference "R?") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R10") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/1d7e27c6-6983-46cf-90f6-7c7cc5c47f35"
       (reference "SW1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
@@ -3143,7 +3143,7 @@
       (reference "U6") (unit 1) (value "AHT20") (footprint "Package_LGA:Asair_LGA-6_3x3mm_P1mm")
     )
     (path "/5ee4da8f-4281-43fb-a568-902173be53e7"
-      (reference "U?") (unit 1) (value "PCA9306DC1") (footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
+      (reference "U7") (unit 1) (value "PCA9306DC1") (footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm")
     )
   )
 )
